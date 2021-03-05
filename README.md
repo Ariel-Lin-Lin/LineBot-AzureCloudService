@@ -1,7 +1,7 @@
-# LineBot-AzureCognitiveService
+# LineBot-AzureCloudService
 
 ## Purpose
-This project of LineBot and Azure Cognitive Services is design for the elder with worsening eyesight and for the people who is native Mandarian Speaker and bad at english. With the help of this LineBot, the elder and the people who want to travel around the world but bad at English can get a solution. The user just have to upload an image to LineBot and the desinged system can detect the text and language on the image automatically by OCR technology(Azure Computer Vision API). If the language is English, it will translate English to Chinese(Azure Translation API). Finally, the user can get a speech according to the image(Azure Text-to-Speech API) and the Youtube Search Link according to the Keyword on the image(Youtube Search API).     
+此專案設計出發點以老年人因老花眼造成閱讀障礙，以及英文不好但是想出國的客群發想，透過腳本設計AZURE串聯Azure上的認知服務(OCR技術)，圖片辨識與語音功能，使用者可透過LineBot拍照上傳圖片，可得到中文語音回饋服務。    
 
 ## Here is the automation process:
 ![image](https://github.com/PikoLab/LineBot-AzureCognitiveService/blob/main/Automation_Arrangement.jpg)
